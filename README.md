@@ -1,5 +1,8 @@
-#### Checkout the code and link nvim conf to ~/.config
-- ln -s /where/it/is/right/now /the/path/I/want/to/use
+### Setup
+- link or source the .zshrc in home dir
+	- source ~/.dev-env/.zshrc
+- link nvim conf to ~/.config
+    - ln -s ~/.dev-env/nvim ~/.config/nvim
 
 
 #### Dependencies:
@@ -19,6 +22,3 @@
 - junegunn/fzf-git.sh.git
 	- git@github.com:junegunn/fzf-git.sh.git
 
-#### Link 
-- ~/.zshrc
-	- source ~/.config/.zshrc
